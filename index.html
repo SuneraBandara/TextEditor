@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Text Editor</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="toolbar">
+    <button id="boldButton" title="Bold">B</button>
+    <button id="italicButton" title="Italic">I</button>
+    <button id="underlineButton" title="Underline">U</button>
+    <input type="color" id="color" title="Text Color">
+
+    <button id="leftAlign" class="align" title="Align Left"><img src="alignLeft.png" alt="Left"></button>
+    <button id="centerAlign" class="align" title="Align Center"><img src="alignCenter.png" alt="Center"></button>
+    <button id="rightAlign" class="align" title="Align Right"><img src="alignRight.png" alt="Right"></button>
+    <button id="justifyAlign" class="align" title="Justify"><img src="alignJustify.png" alt="Justify"></button>
+
+    <button id="undoBtn" title="Undo">Undo</button>
+    <button id="redoBtn" title="Redo">Redo</button>
+  </div>
+
+  <div class="editor" id="editor" contenteditable="true">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
